@@ -10,21 +10,21 @@ A module for [bitcore](https://github.com/bitpay/bitcore) that implements [Payme
 ## Getting Started
 
 This library is distributed in both the npm and bower packaging systems.
-
+bpp-hush not working yet TODO
 ```sh
-npm install bitcore-lib
-npm install bitcore-payment-protocol
+npm install bitcore-lib-hush
+npm install bitcore-payment-protocol-hush
 ```
 
 ```sh
-bower install bitcore-lib
-bower install bitcore-payment-protocol
+bower install bitcore-lib-hush
+bower install bitcore-payment-protocol-hush
 ```
 
 There are many examples of how to use it on the developer guide [section for payment protocol](https://bitcore.io/api/paypro). For example, the following code would verify a payment request:
 
 ```javascript
-var PaymentProtocol = require('bitcore-payment-protocol');
+var PaymentProtocol = require('bitcore-payment-protocol-hush');
 
 var body = PaymentProtocol.PaymentRequest.decode(rawbody);
 var request = new PaymentProtocol().makePaymentRequest(body);
@@ -48,3 +48,4 @@ See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING
 Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Copyright 2017 TheTrunk
