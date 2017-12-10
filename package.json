@@ -53,7 +53,7 @@
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
-    "bitcore-lib-hush": "^0.13.20",
+    "bitcore-lib-hush": "git://github.com/TheTrunk/bitcore-lib-hush#master",
     "bs58": "^4.0.1",
     "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
